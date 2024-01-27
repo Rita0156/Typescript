@@ -1,0 +1,22 @@
+
+#main_container{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+#main_container>div>img{
+    width: 100%;
+}
+#main_container>div{
+    border: 2px solid rgb(160, 159, 159);
+    padding: 10px;
+}
+#searchInp{
+    margin: auto;
+}
+#searchInp>form{
+    display: block;
+    margin: auto;
+}
